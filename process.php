@@ -1,15 +1,15 @@
 <?php
 
-$firstname = $post['Fname'];
-$lastname = $post['Lname'];
-$date = $post['date'];
-$time = $post['time'];
+$Fname = $_GET['firstname'];
+$Lname = $_GET['lastname'];
+$date = $_GET['date'];
+$time = $_GET['time'];
 
 
-mysql_connect("localhost", 'root', 'prelim' ,'rent');
-mysql_select_db(rent);
-$sql = "SELECT * FROM `data`";
-mysql_select_db(data):
+mysql_connect("localhost",'root','');
+mysql_select_db('rent');
+$sql = mysql_query("SELECT * FROM `sked`");
 
-if(submit)
-	echo "please do come on time";
+
+echo "please do come on time";
+?>
