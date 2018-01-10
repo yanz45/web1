@@ -17,7 +17,7 @@
                 <div style="marker-mid: : 160px">
     <div class="space">fill the form</div>
 		<div class="main">
-				<form action="/action_page.php">
+				<form action="process.php">
 				First name:<br>
 				<input type="text" name="firstname">
 				<br>
@@ -30,7 +30,7 @@
 				date:<br>
 				<input type="date" name="date">
 				<br><br>
-				<input type="submit"">
+				<a href ="congratulation.html"><input type="submit"></a>
 				</form>
 
         </div>
